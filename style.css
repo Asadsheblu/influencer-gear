@@ -25,6 +25,9 @@ body{
     
     
 }
+.menu{
+    display: flex;
+}
 
 .logo{
     font-size: 24px;
@@ -163,6 +166,10 @@ body{
     .brand{
         grid-template-columns: repeat(2,1fr);
         row-gap: 15px;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: 1fr;
     }
    
 }
