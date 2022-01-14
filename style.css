@@ -18,7 +18,7 @@ body{
 }
 /*-----Navigation Menu Part-----*/
 .container{
-    max-width: 1200vh;
+    max-width: 1200px;
     margin: 0 auto;
     padding:0 70px;
     
@@ -160,7 +160,7 @@ li{
     list-style: none;
 }
 li .fas{
-    color: rgba(255, 255, 0, 0.915);
+    color: yellowgreen;
 }
 #anchor-colour{
     color:#E02C6D;
@@ -178,7 +178,7 @@ footer{
 }
 
 /*Mobile device*/
-@media (min-width:668px) and (max-width:1024px){
+@media (min-width:688px) and (max-width:992px){
     .container{
         width:auto
     }
@@ -199,7 +199,7 @@ footer{
     }
 }
 
-@media (max-width:668px){
+@media (max-width:688px){
     .banner{
         grid-template-columns: repeat(1,1fr);
         height: fit-content;
