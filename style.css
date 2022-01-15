@@ -35,13 +35,13 @@ nav{
 }
 .navigation li{
     list-style: none;
-    margin: 10px;
+    margin: 8px;
 }
 .navigation li a{
     text-decoration: none;
     color: #0A0826;
     font-weight: 600;
-    padding: 15px 10px;
+    padding: 15px 8px;
 }
 #nav-toggler{
     display: none;
@@ -230,7 +230,10 @@ span a{
         grid-template-columns: 1fr 1fr;
     }
     .banner{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .banner-right img{
+       padding-bottom: 250px;
     }
     .brand{
         grid-template-columns: repeat(4,1fr);
