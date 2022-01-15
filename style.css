@@ -14,7 +14,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
      margin: 0 auto;
-     overflow-x: hidden;
+     
      
 }
 /*-----Navigation Menu Part-----*/
@@ -45,12 +45,9 @@ nav{
 }
 
 .icon .fas{
+    padding: 5px;
+    font-size: 25px;
     
-    margin-top: 20px;
-    font-size: 30px;
-    margin-left: 20px;
-    margin-right: 15px;
-    white-space: pre-wrap;
 }
 /*-------------
 ---------------
@@ -69,6 +66,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    
    
 }
 .banner-left h2{
@@ -89,7 +87,8 @@ nav{
     
 }
 .banner-right img{
-    width: 100%;  
+    width: 100%;
+    margin-bottom: 70px;  
 }
 
 .primary-button{
@@ -104,8 +103,8 @@ nav{
 }
 
 .banner-right img{
-    margin-bottom: 100px;
     width: 400px;
+    margin-bottom: 70px;
 }
 /*............
 .............
@@ -190,7 +189,7 @@ Contatc Section
     align-items: center;
 }
 .text-field{
-    width: 80%;
+    width: 70%;
     margin: 10px 0;
     padding: 10px;
     font-size: 18px;
@@ -296,5 +295,7 @@ span a{
    
     .contact{
         grid-template-columns: 1fr;
+        margin: auto;
+        width: 100%;
     }
 }
