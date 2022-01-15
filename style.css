@@ -43,6 +43,9 @@ nav{
     font-weight: 600;
     padding: 15px 10px;
 }
+#nav-toggler{
+    display: none;
+}
 
 .icon .fas{
     padding: 5px;
@@ -101,6 +104,10 @@ nav{
    align-items: center;
    cursor: pointer;
 }
+.primary-button:hover{
+    background-color: #fff;
+    color: #FF008E;
+}
 
 .banner-right img{
     width: 400px;
@@ -117,11 +124,9 @@ nav{
     grid-template-columns: repeat(7,1fr);
     justify-content: space-around;
     align-items: center;
-    margin-left: 40px;
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
-    
-    
+    margin: 40px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray; 
 }
 /*--------------Products Item Style=============*/
 .section-title h2{
@@ -255,8 +260,13 @@ span a{
     .navigation li a{
         color: #121212;
     }
+    #nav-toggler:checked{
+        opacity: 0;
+        display: none;
+    }
     #nav-toggler:checked ~ .navigation{
         transform: translateY(0px);
+        
     }
     .banner{
         grid-template-columns: 1fr;
@@ -266,6 +276,7 @@ span a{
        width: 270px;
     }
     .brand{
+        padding: 10;
         grid-template-columns: repeat(3,1fr);
         gap: 15px;
     }
