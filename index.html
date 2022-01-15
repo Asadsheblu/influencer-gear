@@ -11,33 +11,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--Nav Bar Section-->
     <header id="home">
-        <main class="container">
-            <nav>
-                <div class="menu">
-                    <div class="logo">
-                        <li><a href="">Influencer products</a></li>
+        <nav class="container">
+            <div class="logo">
+               <h2>Influencer products</h2>
+            </div>
+            <input type="checkbox" id="nav-toggler">
+            <label class="nav-toggler-icon" for="nav-toggler">
+                <i class="card-icon fas fa-bars"></i>
+            </label>
+            <ul class="navigation">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
 
-                    </div>
-                    <div >
-                        <ul class="navigation">
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Product</a></li>
-                            <li><a href="">Signup</a></li>
-                            <li><a href=""></a>Log in</li>
-                        </ul>
-                    </div>
-                        <div class="icon">
-                            <i class="fas fa-search"></i>
-                            <i class="fas fa-shopping-cart"></i>
+            </ul>
 
-                        </div>
-
-
-                    </div>
-            </nav>
-        </main>
-    </header>
+        </nav>
+        </header>
 <!--Banner Section-->
     <section class="container">
         <div class="banner">
@@ -57,11 +49,12 @@
             </div>
         </div>        
     </section>
+    <!--Brand Company Logo section-->
     <section class="container">
         
-        <hr>
+      
             <div class="brand">
-                
+              
                 <img src="logos/Alibaba.svg" alt="">
                 <img src="logos/Amazon.svg" alt="">
                 <img src="logos/Daraz.pk Logo.svg" alt="">
@@ -71,9 +64,9 @@
                 <img src="logos/Walmart.svg" alt="">
                 
             </div>
-            <hr>
-
     </section>
+
+    <!--All Products Session-->
     <section id="Products">
         <main class="container">
         <div class="section-title">
@@ -290,12 +283,43 @@
                     </article>
                 </div>
                 <br>
-               <a id="anchor-colour" href="">See More<i class="fas fa-arrow-right"></i></a>
+               
 
             </div>
+           
         </div>
+        
     </main> 
+    <!--See More Option-->
+    <p style="text-align: right;margin-right: 40px;"><a id="see-more" href="">See More<i class="fas fa-arrow-right"></i></a></p>
+    
     </section>
+    <!--Contact Section-->
+    <section id="contact">
+        <div class="section-title">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="contact">
+            <div class="contact-left">
+               <h2>INFLUENCER GEAR</h2> 
+               <p><i class="fas fa-address-card"></i> Level-4, 34, Awal Centre, Banani, Dhaka</p> 
+                  <span><i class="far fa-envelope"></i> E-mail:influencer1gear@email.com</span> <br> 
+                  <span><i class="fas fa-phone-alt"></i> Phone No:746276219172</span>
+         
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" placeholder="Your Name" class="text-field">
+                    <input type="email" placeholder="Your Email" class="text-field">
+                    <textarea placeholder="Your Message" class="text-field" id="" cols="30" rows="10"></textarea>
+                    
+                    <button class="primary-button">Contact Us
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
     <section class="container">
     <footer>
         <h3>Influencer product</h3>
