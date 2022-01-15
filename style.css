@@ -162,6 +162,7 @@ li .fas{
     color:#E02C6D;
     text-decoration: none;
     font-weight: 700;
+    margin-top: 50px;
   
     
 }
@@ -262,7 +263,7 @@ span a{
         height: fit-content;
     }
     .banner-right img{
-        margin-right: 0px;
+       width: 270px;
     }
     .brand{
         grid-template-columns: repeat(3,1fr);
