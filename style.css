@@ -107,7 +107,7 @@ nav{
 }
 
 .banner-right img{
-    width: 450px;
+    width: 400px;
     margin-bottom: 70px;
     transition: transform 6s ease-in-out;
 }
@@ -272,6 +272,9 @@ span a{
     #nav-toggler:checked ~ .navigation{
         transform: translateY(0px);
         
+    }
+    .section-title{
+        font-size: medium;
     }
     .banner{
         grid-template-columns: 1fr;
