@@ -83,16 +83,6 @@ nav{
     margin: 20px 0;
 }
 
-.banner-right{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    
-}
-.banner-right img{
-    width: 100%;
-    margin-bottom: 70px;  
-}
 
 .primary-button{
     padding: 8px 28px;
@@ -104,18 +94,27 @@ nav{
    align-items: center;
    cursor: pointer;
 }
+
+.banner-right{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
 .primary-button:hover{
     background-color: #fff;
     color: #FF008E;
 }
 
 .banner-right img{
-    width: 500px;
+    width: 450px;
     margin-bottom: 70px;
     transition: transform 6s ease-in-out;
 }
 .banner-right img:hover{
     transform: scale(.8);
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
 }
 /*............
 .............
