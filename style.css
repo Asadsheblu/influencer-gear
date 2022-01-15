@@ -214,7 +214,7 @@ span a{
 /*_____ Tab  Responsive Version----- */
 
 
-@media (max-width:950px){
+@media (max-width:1024px){
     .products{
         grid-template-columns: 1fr 1fr;
     }
@@ -225,9 +225,7 @@ span a{
         grid-template-columns: repeat(4,1fr);
         gap: 15px;
     }
-    .contact{
-        grid-template-columns: 1fr 1fr;
-    }
+    
     
 }
 
@@ -296,7 +294,6 @@ span a{
    
     .contact{
         grid-template-columns: 1fr;
-        margin: auto;
-        width: 100%;
+        
     }
 }
