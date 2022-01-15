@@ -232,9 +232,7 @@ span a{
     .banner{
         grid-template-columns: repeat(2,1fr);
     }
-    .banner-right img{
-       padding-bottom: 250px;
-    }
+    
     .brand{
         grid-template-columns: repeat(4,1fr);
         gap: 15px;
@@ -282,6 +280,7 @@ span a{
     .banner{
         grid-template-columns: 1fr;
         height: fit-content;
+        row-gap: 10px;
     }
     .banner-right img{
        width: 270px;
